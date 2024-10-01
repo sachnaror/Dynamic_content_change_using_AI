@@ -22,10 +22,8 @@ Dynamic Content Change Using AI is a Django application that allows users to int
 
 ## Technologies Used
 
-- Python 3.x 🐍
+- Python 3.12
 - Django 5.1.1 🏗️
-- SQLite (for development) 🗃️
-- HTML, CSS, and JavaScript 🌐
 - Bootstrap 5 🎨
 
 ## Installation
