@@ -1,7 +1,8 @@
+from core import views
 from django.contrib import admin
-from django.urls import include, path
+from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('app1.urls')),  # Include your app's URLs
+    path('', views.index, name='index'),
 ]
