@@ -59,8 +59,8 @@ ROOT_URLCONF = 'Dynamic_content_change_using_AI.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
-        'APP_DIRS': True,
+        'DIRS': [],  # Leave empty for app-based templates
+        'APP_DIRS': True,  # Enables searching for templates in each app's 'templates' folder
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
@@ -116,7 +116,7 @@ USE_I18N = True
 
 USE_TZ = True
 
-
+export API_KEY='your_actual_api_key_here'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 

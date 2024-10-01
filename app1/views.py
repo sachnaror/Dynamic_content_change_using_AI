@@ -26,5 +26,5 @@ def generate_random_heading():
 
 # View to display the dynamic heading on the webpage
 def index(request):
-    dynamic_content = generate_random_heading()  # Get the dynamic heading
-    return render(request, 'index.html', {'dynamic_content': dynamic_content})
+    dynamic_content = generate_random_heading()  # Generate the dynamic content
+    return render(request, 'app1/index.html', {'dynamic_content': dynamic_content})

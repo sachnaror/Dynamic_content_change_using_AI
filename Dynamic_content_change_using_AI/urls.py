@@ -1,4 +1,4 @@
-from core import views
+from app1 import views
 from django.contrib import admin
 from django.urls import path
 
